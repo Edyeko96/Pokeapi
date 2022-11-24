@@ -1,0 +1,22 @@
+.columna{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, ifr));
+ 
+
+}
+
+.card1{
+    list-style: none;
+    padding: 15px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
